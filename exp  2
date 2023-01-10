@@ -81,3 +81,14 @@ clc
 --> disp(K,'The obtained system gain forb the given transfer function K = ');
  The obtained system gain forb the given transfer function K = 
    0.5268704
+   
+   
+   ****************part3****************
+   clc
+--> clear
+--> s=%s;
+--> n=[2+3*s+4*s^2];
+--> d=[1+s+s^2];
+--> h=syslin("c",n,d);
+--> plzr(h);
+
